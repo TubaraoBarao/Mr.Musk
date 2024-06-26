@@ -12,6 +12,6 @@ O progresso do jogo é obtido no arquivo de texto progress.txt e pode ser facilm
 
 #
 
-Any help or advice is welcome and appreciated.
+Any help, review or advice is welcome and appreciated.
 
-Qualquer ajuda ou conselho é bem-vindo e apreciado.
+Qualquer ajuda, crítica ou conselho é bem-vindo e apreciado.
