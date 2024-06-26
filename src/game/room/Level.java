@@ -65,7 +65,7 @@ public class Level extends Room {
         objects.add(new PauseVoltarAoMenu(player, panel, "/game/image/WBvoltarAoMenu.png", "/game/image/GBvoltarAoMenu.png", 600, 500, 616, 70));
         objects.add(new PauseSairDoJogo(player, panel, "/game/image/WBsairDoJogo.png", "/game/image/GBsairDoJogo.png", 600, 600, 518, 70));
 
-        if(panel.notification) objects.add(new Notification(player,"/game/image/n1.png" ));
+        if(panel.notificationStatus) objects.add(new Notification(player,"/game/image/n1.png" ));
 
     }
 
@@ -90,7 +90,7 @@ public class Level extends Room {
         objects.add(new PauseVoltarAoMenu(player, panel, "/game/image/WBvoltarAoMenu.png", "/game/image/GBvoltarAoMenu.png", 600, 500, 616, 70));
         objects.add(new PauseSairDoJogo(player, panel, "/game/image/WBsairDoJogo.png", "/game/image/GBsairDoJogo.png", 600, 600, 518, 70));
 
-        if(panel.notification) objects.add(new Notification(player,"/game/image/n2.png" ));
+        if(panel.notificationStatus) objects.add(new Notification(player,"/game/image/n2.png" ));
 
     }
 
@@ -117,7 +117,7 @@ public class Level extends Room {
         objects.add(new PauseVoltarAoMenu(player, panel, "/game/image/WBvoltarAoMenu.png", "/game/image/GBvoltarAoMenu.png", 600, 500, 616, 70));
         objects.add(new PauseSairDoJogo(player, panel, "/game/image/WBsairDoJogo.png", "/game/image/GBsairDoJogo.png", 600, 600, 518, 70));
 
-        if(panel.notification) objects.add(new Notification(player,"/game/image/n3.png" ));
+        if(panel.notificationStatus) objects.add(new Notification(player,"/game/image/n3.png" ));
 
     }
 
@@ -148,7 +148,7 @@ public class Level extends Room {
         objects.add(new PauseVoltarAoMenu(player, panel, "/game/image/WBvoltarAoMenu.png", "/game/image/GBvoltarAoMenu.png", 600, 500, 616, 70));
         objects.add(new PauseSairDoJogo(player, panel, "/game/image/WBsairDoJogo.png", "/game/image/GBsairDoJogo.png", 600, 600, 518, 70));
 
-        if(panel.notification) objects.add(new Notification(player,"/game/image/n4.png" ));
+        if(panel.notificationStatus) objects.add(new Notification(player,"/game/image/n4.png" ));
 
     }
 
@@ -187,7 +187,7 @@ public class Level extends Room {
         objects.add(new PauseVoltarAoMenu(player, panel, "/game/image/WBvoltarAoMenu.png", "/game/image/GBvoltarAoMenu.png", 600, 500, 616, 70));
         objects.add(new PauseSairDoJogo(player, panel, "/game/image/WBsairDoJogo.png", "/game/image/GBsairDoJogo.png", 600, 600, 518, 70));
 
-        if(panel.notification) objects.add(new Notification(player,"/game/image/n5.png" ));
+        if(panel.notificationStatus) objects.add(new Notification(player,"/game/image/n5.png" ));
 
     }
 
