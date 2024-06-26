@@ -27,7 +27,7 @@ public class NotificationBtt extends Btt {
 
     public void action() {
         super.action();
-        panel.notification = !panel.notification;
+        panel.notificationStatus = !panel.notificationStatus;
     }
 
     public boolean inThere = false;
@@ -40,11 +40,11 @@ public class NotificationBtt extends Btt {
             double mouseY = MouseInfo.getPointerInfo().getLocation().getY();
 
             if (mouseX > x - width / 2 && mouseX < x + width / 2 && mouseY > y - height / 2 && mouseY < y + height / 2) {
-                if(panel.notification) image = GBwithNotification;
+                if(panel.notificationStatus) image = GBwithNotification;
                 else image = GBwithoutNotification;
             }
             else {
-                if(panel.notification) image = WBwithNotification;
+                if(panel.notificationStatus) image = WBwithNotification;
                 else image = WBwithoutNotification;
             }
 

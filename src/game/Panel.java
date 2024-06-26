@@ -19,7 +19,7 @@ public class Panel extends JComponent {
 
     private Room currentRoom;
     public int currentRoomIndex;
-    public volatile boolean notification = true;
+    public volatile boolean notificationStatus = true;
     public volatile boolean musicStatus = true;
     public volatile boolean soundStatus = true;
 
